@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>SoundCloud Jukebox</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="default.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://connect.soundcloud.com/sdk/sdk-3.2.1.js"></script>
+</head>
+
+<body>
+
+<div class="jukebox-content">
+
+	<div class="container">
+		<div id="myJukebox" class="jukebox">
+
+			<h1></h1>
+
+			<img class="albumCover" src="" alt="Album Cover">
+			<h3 class="songTitle"></h3>
+			<h4 class="songArtist"></h4>
+
+			<div class="controls">
+				<span class="fa fa-backward"></span>
+				<span class="fa fa-pause"></span>
+				<span class="fa fa-play"></span>
+				<span class="fa fa-stop"></span>
+				<span class="fa fa-forward"></span>
+			</div>
+
+		</div>
+
+		<div id="playlist">
+			<h2 class="trackList"></h2>
+			<ol class="playlist"></ol>
+		</div>
+
+	</div>
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
